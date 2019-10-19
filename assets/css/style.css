@@ -1,48 +1,67 @@
-
-
-
-
-
-
-
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     background: url("../images/Background_Image.png");
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 960px;
 }
 
-div .Header {
+.logo {
     background-color: #ffffff;
-    background-position: center;
-    float: center;
-}
-
-
-div .Container-Logo {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    width: 20px;
     padding: 20px;
-    margin: 20px;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    position: fixed;
+    clear: both;
+    top: 0;
 }
 
-nav .links {
-    margin: 20px;
-    padding-right: 20px;
-    display: inline;
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color:  #777777;
-    background-color: #ffffff;
+    padding: 20px;
     float: left;
+    position: fixed;
+    height: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0;
+    margin-left: 40px;
 }
 
-#Logo {
-    background-color: #ffffff;
-    float: center;
-    margin-inline-end: 20px;
+.links {
+    list-style: none;
+    font-size: 20px;
+    float: right;
 }
 
-#Content {
+a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #777777;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    text: white;
+    text-align: center;
+  }
+
+.content {
     background-color: #ffffff;
     content: 500px;
     align-content: center;
@@ -52,31 +71,6 @@ nav .links {
     padding: 20px;
     float: center;
 }
-h1 {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 20px;
-    margin: 100px;
-    display: inline;
-}
-
-.Container-Logo {
-    text-align: center;
-    box-sizing: ;
-}
-
-nav {
-    float: right;
-    background-color: #ffffff;
-    display: inline;
-}
-
-nav .links {
-    display: inline-block;
-    padding: 20px;
-    margin; 20px;
-}
 
 
 h3 {
@@ -84,10 +78,6 @@ h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
 
 p {
     float: inline-start;
@@ -99,7 +89,6 @@ img {
     float: left;
     padding: 20px;
 }
-
 
 
 
