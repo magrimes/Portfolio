@@ -26,6 +26,10 @@ body {
     clear: both;
     top: 0;
 }
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
 
 h1 {
     background-color: #4aaaa5;
@@ -45,6 +49,7 @@ h1 {
     list-style: none;
     font-size: 15px;
     float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -59,7 +64,7 @@ a {
     width: 960px;
     align-content: center;
     content: #ffffff;
-    margin-bottom: 700px;
+    margin-bottom: 500px;
     margin-top: 100px;
     padding: 20px;
     float: center;
@@ -145,16 +150,44 @@ textarea {
     cursor: pointer;
     height: 20px;
     width: 100px;
-    text: large;
-    background color: #4aaaa5;
+    text-size-adjust: large;
+    background-color: #4aaaa5;
+    background: 20px;
  }
 
-.wrapper {
-    width: 960px;
+ .images {
+    position: relative;
+    max-width: 200px;
     margin: 0 auto;
-}
+  }
+  
+  .clear .images {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100px; 
+    padding: 20px;
+  }
 
-.images p {
-    
-}
+  .wrap {
+      width: 960px;
+      float: center;
+      position: fixed;
+  }
 
+  .textbox .column {
+    position: absolute;
+    bottom: 20px;
+    place-content: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 200px;
+
+  }
+
+  
